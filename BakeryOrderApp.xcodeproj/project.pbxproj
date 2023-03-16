@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		3F11FB5029C08FC400287F65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F11FB4F29C08FC400287F65 /* AppDelegate.swift */; };
 		3F11FB5229C08FC400287F65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F11FB5129C08FC400287F65 /* SceneDelegate.swift */; };
-		3F11FB5429C08FC400287F65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F11FB5329C08FC400287F65 /* ViewController.swift */; };
+		3F11FB5429C08FC400287F65 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F11FB5329C08FC400287F65 /* LoginViewController.swift */; };
 		3F11FB5729C08FC400287F65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F11FB5529C08FC400287F65 /* Main.storyboard */; };
 		3F11FB5A29C08FC400287F65 /* BakeryOrderApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F11FB5829C08FC400287F65 /* BakeryOrderApp.xcdatamodeld */; };
 		3F11FB5C29C08FC400287F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F11FB5B29C08FC400287F65 /* Assets.xcassets */; };
 		3F11FB5F29C08FC400287F65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F11FB5D29C08FC400287F65 /* LaunchScreen.storyboard */; };
+		3F91129929C2BEB600E034C6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F91129829C2BEB600E034C6 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F11FB4C29C08FC400287F65 /* BakeryOrderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BakeryOrderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F11FB4F29C08FC400287F65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F11FB5129C08FC400287F65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F11FB5329C08FC400287F65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F11FB5329C08FC400287F65 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3F11FB5629C08FC400287F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F11FB5929C08FC400287F65 /* BakeryOrderApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BakeryOrderApp.xcdatamodel; sourceTree = "<group>"; };
 		3F11FB5B29C08FC400287F65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F11FB5E29C08FC400287F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F11FB6029C08FC400287F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F91129829C2BEB600E034C6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,8 @@
 			children = (
 				3F11FB4F29C08FC400287F65 /* AppDelegate.swift */,
 				3F11FB5129C08FC400287F65 /* SceneDelegate.swift */,
-				3F11FB5329C08FC400287F65 /* ViewController.swift */,
+				3F11FB5329C08FC400287F65 /* LoginViewController.swift */,
+				3F91129829C2BEB600E034C6 /* RegisterViewController.swift */,
 				3F11FB5529C08FC400287F65 /* Main.storyboard */,
 				3F11FB5B29C08FC400287F65 /* Assets.xcassets */,
 				3F11FB5D29C08FC400287F65 /* LaunchScreen.storyboard */,
@@ -141,7 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F11FB5429C08FC400287F65 /* ViewController.swift in Sources */,
+				3F11FB5429C08FC400287F65 /* LoginViewController.swift in Sources */,
+				3F91129929C2BEB600E034C6 /* RegisterViewController.swift in Sources */,
 				3F11FB5029C08FC400287F65 /* AppDelegate.swift in Sources */,
 				3F11FB5A29C08FC400287F65 /* BakeryOrderApp.xcdatamodeld in Sources */,
 				3F11FB5229C08FC400287F65 /* SceneDelegate.swift in Sources */,
