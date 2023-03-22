@@ -15,6 +15,7 @@
 		3F11FB5C29C08FC400287F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F11FB5B29C08FC400287F65 /* Assets.xcassets */; };
 		3F11FB5F29C08FC400287F65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F11FB5D29C08FC400287F65 /* LaunchScreen.storyboard */; };
 		3F91129929C2BEB600E034C6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F91129829C2BEB600E034C6 /* RegisterViewController.swift */; };
+		3FD3725129CAA39E00651771 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD3725029CAA39E00651771 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3F11FB5E29C08FC400287F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F11FB6029C08FC400287F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F91129829C2BEB600E034C6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3FD3725029CAA39E00651771 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				3F11FB5D29C08FC400287F65 /* LaunchScreen.storyboard */,
 				3F11FB6029C08FC400287F65 /* Info.plist */,
 				3F11FB5829C08FC400287F65 /* BakeryOrderApp.xcdatamodeld */,
+				3FD3725029CAA39E00651771 /* HomeViewController.swift */,
 			);
 			path = BakeryOrderApp;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				3F11FB5029C08FC400287F65 /* AppDelegate.swift in Sources */,
 				3F11FB5A29C08FC400287F65 /* BakeryOrderApp.xcdatamodeld in Sources */,
 				3F11FB5229C08FC400287F65 /* SceneDelegate.swift in Sources */,
+				3FD3725129CAA39E00651771 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
